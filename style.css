@@ -2,8 +2,8 @@
     margin-bottom: 100px;
 }
 .navbar{
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .navbar-nav{
     color: grey;
@@ -32,4 +32,42 @@ border-radius: 30px;
     color: white;
     padding: 9px 25px;
     cursor: pointer;
+}
+.card-deck{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.title-pad{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px lightgray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.card-footer{
+    background-color: white;
+    border-top: none;
+}
+.card-img-top{
+    width: 70%;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.categories hr{
+    width: 78px;
+    height: 5px;
+    background-image: linear-gradient(to left,#e67e22, #f1c40f);
+    border-radius: 10px;
+    margin-bottom: 80px;
+}
+
+.category-section{
+    margin-bottom: 80px;
+}
+.categories-item{
+    padding: 20px 20px;
 }
