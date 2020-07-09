@@ -1,0 +1,35 @@
+.container{
+    margin-bottom: 100px;
+}
+.navbar{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+.navbar-nav{
+    color: grey;
+    font-weight: 700;
+}
+.navbar img{
+    width: 120px;
+}
+.carousel-indicators li{
+background-color: #CECECE;
+width: 10px;
+height: 10px;
+border: none;
+border-radius: 30px;
+} 
+.carousel-indicators .active{
+    background-image: linear-gradient(to right, rgb(247, 225, 156),  darkgoldenrod );
+    width: 35px;
+    height: 10px;
+    border-radius: 8px;
+}
+.buy-now-button{
+    background-color: black;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 9px 25px;
+    cursor: pointer;
+}
